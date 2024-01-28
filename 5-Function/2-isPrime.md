@@ -1,4 +1,4 @@
-:::mermaid
+```mermaid
 graph TD
     A[Start] --> B[Declare number]
     B --> C[Prompt user for number]
@@ -33,3 +33,4 @@ graph TD
         AA --> W
         W -->|false| BB[Return true]
     end
+```

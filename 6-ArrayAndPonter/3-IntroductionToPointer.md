@@ -1,4 +1,4 @@
-:::mermaid
+```mermaid
 graph TD
     A[Start] --> B[Declare a variable]
     B --> C[Assign a value to the variable]
@@ -9,3 +9,4 @@ graph TD
     G --> H["Display Pointer Value (Dereferenced)"]
     H --> I[Display Pointer Address]
     I --> J[End]
+```

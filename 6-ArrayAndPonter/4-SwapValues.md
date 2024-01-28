@@ -1,4 +1,4 @@
-:::mermaid
+```mermaid
 graph TD
     A[Start] --> B[Declare and initialize two integer variables]
     B --> C[Assign value 5 to num1]
@@ -15,3 +15,4 @@ graph TD
         K --> L[Assign the value pointed by b to the location pointed by a]
         L --> M[Assign temp to the location pointed by b]
     end
+```

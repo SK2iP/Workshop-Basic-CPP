@@ -1,4 +1,4 @@
-:::mermaid
+```mermaid
 graph TD
     A[Start] --> B[Declare number, sum]
     B --> C[Prompt user for number]
@@ -11,3 +11,4 @@ graph TD
     I --> G
     G -->|false| J[Display the result]
     J --> K[End]
+```

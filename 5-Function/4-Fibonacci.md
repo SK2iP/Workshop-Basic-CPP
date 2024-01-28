@@ -1,4 +1,4 @@
-:::mermaid
+```mermaid
 graph TD
     A[Start] --> B[Declare terms]
     B --> C[Prompt user for terms]
@@ -17,3 +17,4 @@ graph TD
         L -->|n <= 1| M[Return n]
         L -->|else| N["Return fibonacci (n - 1) + fibonacci(n - 2)"]
     end
+```

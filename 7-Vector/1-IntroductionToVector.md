@@ -1,4 +1,4 @@
-:::mermaid
+```mermaid
 graph TD
     A[Start] --> B[Declare and initialize a vector of integers]
     B --> C["Initialize numbers with {1, 2, 3, 4, 5}"]
@@ -9,3 +9,4 @@ graph TD
     G --> H[Increment i]
     H --> E
     F -->|false| I[End]
+```

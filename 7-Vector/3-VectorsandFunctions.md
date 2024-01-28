@@ -1,4 +1,4 @@
-:::mermaid
+```mermaid
 flowchart TD
     subgraph Initialization
         A[Start] --> B[Enter size and values]
@@ -25,3 +25,4 @@ flowchart TD
     end
 
     M --> N[End]
+```

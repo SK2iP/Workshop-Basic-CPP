@@ -1,4 +1,4 @@
-:::mermaid
+```mermaid
 graph TD
     A[Start] --> B[Global variable declaration]
     B --> C["Define a function (exampleFunction)"]
@@ -8,3 +8,4 @@ graph TD
     F --> G["Call the function (exampleFunction)"]
     G --> H[Display Global Variable in main]
     H --> I[End]
+```

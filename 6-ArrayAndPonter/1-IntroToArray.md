@@ -1,4 +1,4 @@
-:::mermaid
+```mermaid
 graph TD
     A[Start] --> B[Declare and initialize an array of integers]
     B --> C["Initialize numbers[] with {1, 2, 3, 4, 5}"]
