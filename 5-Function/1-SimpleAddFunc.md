@@ -1,4 +1,4 @@
-:::mermaid
+```mermaid
 graph TD
     A[Start] --> B[Declare num1, num2]
     B --> C[Prompt user for num1]
@@ -13,3 +13,4 @@ graph TD
         J["Function add(a, b)"]
         J --> K[Return a + b]
     end
+```
