@@ -1,0 +1,20 @@
+```mermaid
+graph TD
+    A[Start] --> B[Declare actualDay, actualMonth, actualYear, expectedDay, expectedMonth, expectedYear]
+    B --> C[Prompt user for actual return date]
+    C --> D[Read actualDay, actualMonth, actualYear from user]
+    D --> E[Prompt user for expected return date]
+    E --> F[Read expectedDay, expectedMonth, expectedYear from user]
+    F --> G[Calculate fine using nested conditions]
+    G --> H[Initialize fine to 0]
+    H --> I[Check if actualYear > expectedYear]
+    I -->|true| J[Set fine to 10000]
+    I -->|false| K[Check if actualYear == expectedYear and actualMonth > expectedMonth]
+    K -->|true| L[Calculate fine based on months late]
+    K -->|false| M[Check if actualYear == expectedYear and actualMonth == expectedMonth and actualDay > expectedDay]
+    M -->|true| N[Calculate fine based on days late]
+    N --> O[Display the fine amount]
+    J --> O[Display the fine amount]
+    L --> O[Display the fine amount]
+    N --> O[Display the fine amount]
+``````

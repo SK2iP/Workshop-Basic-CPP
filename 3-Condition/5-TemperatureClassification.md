@@ -1,0 +1,16 @@
+```mermaid
+graph TD
+    A[Start] --> B[Declare temperature]
+    B --> C[Prompt user for temperature]
+    C --> D[Read temperature from user]
+    D --> E[Check if temperature < 0]
+    E -->|true| F[Output Freezing.]
+    E -->|false| G[Check if temperature <= 10]
+    G -->|true| H[Output Cold.]
+    G -->|false| I[Check if temperature <= 20]
+    I -->|true| J[Output Moderate.]
+    I -->|false| K[Output Warm.]
+    F --> L[End]
+    H --> L[End]
+    J --> L[End]
+    K --> L[End]
